@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elixirs - Wizard World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="elixirs.html">Elixirs</a></li>
+            <li><a href="houses.html">Houses</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="spells.html">Spells</a></li>
+            <li><a href="wizards.html">Wizards</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Elixirs</h1>
+        <form id="elixir-form">
+            <label for="elixir-name">Name:</label>
+            <input type="text" id="elixir-name" name="name">
+            <label for="elixir-difficulty">Difficulty:</label>
+            <select id="elixir-difficulty" name="difficulty">
+                <option value="">Any</option>
+                <option value="Unknown">Unknown</option>
+                <option value="Advanced">Advanced</option>
+                <option value="Moderate">Moderate</option>
+                <option value="Beginner">Beginner</option>
+                <option value="OrdinaryWizardingLevel">Ordinary Wizarding Level</option>
+                <option value="OneOfAKind">One Of A Kind</option>
+            </select>
+            <button type="submit">Get Elixirs</button>
+        </form>
+        <div id="elixir-result"></div>
+    </div>
+    <script src="nav.js"></script>
+    <script src="elixirs.js"></script>
+</body>
+</html>

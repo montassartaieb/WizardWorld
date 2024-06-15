@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizards - Wizard World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="elixirs.html">Elixirs</a></li>
+            <li><a href="houses.html">Houses</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="spells.html">Spells</a></li>
+            <li><a href="wizards.html">Wizards</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Wizards</h1>
+        <form id="wizard-form">
+            <label for="wizard-first-name">First Name:</label>
+            <input type="text" id="wizard-first-name" name="firstName">
+            <label for="wizard-last-name">Last Name:</label>
+            <input type="text" id="wizard-last-name" name="lastName">
+            <button type="submit">Get Wizards</button>
+        </form>
+        <div id="wizard-result"></div>
+    </div>
+    <script src="wizards.js"></script>
+</body>
+</html>

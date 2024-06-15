@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spells - Wizard World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="elixirs.html">Elixirs</a></li>
+            <li><a href="houses.html">Houses</a></li>
+            <li><a href="ingredients.html">Ingredients</a></li>
+            <li><a href="spells.html">Spells</a></li>
+            <li><a href="wizards.html">Wizards</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Spells</h1>
+        <form id="spell-form">
+            <label for="spell-name">Name:</label>
+            <input type="text" id="spell-name" name="name">
+            <label for="spell-type">Type:</label>
+            <select id="spell-type" name="type">
+                <option value="">Any</option>
+                <option value="Charm">Charm</option>
+                <option value="Conjuration">Conjuration</option>
+                <option value="Spell">Spell</option>
+                <option value="Transfiguration">Transfiguration</option>
+                <option value="HealingSpell">Healing Spell</option>
+                <option value="DarkCharm">Dark Charm</option>
+                <option value="Jinx">Jinx</option>
+                <option value="Curse">Curse</option>
+                <option value="MagicalTransportation">Magical Transportation</option>
+                <option value="Hex">Hex</option>
+                <option value="CounterSpell">Counter Spell</option>
+                <option value="DarkArts">Dark Arts</option>
+                <option value="CounterJinx">Counter Jinx</option>
+                <option value="CounterCharm">Counter Charm</option>
+                <option value="Untransfiguration">Untransfiguration</option>
+                <option value="BindingMagicalContract">Binding Magical Contract</option>
+                <option value="Vanishment">Vanishment</option>
+            </select>
+            <button type="submit">Get Spells</button>
+        </form>
+        <div id="spell-result"></div>
+    </div>
+    <script src="spells.js"></script>
+</body>
+</html>
